@@ -1,4 +1,3 @@
-/* style.css */
 body {
   font-family: "Orbitron", sans-serif;
   text-align: center;
@@ -29,14 +28,10 @@ p {
 
 #cat {
   position: absolute;
-  width: 100px;
+  width: 150px;
   cursor: pointer;
   display: none;
-  transition: transform 0.2s;
-}
-
-#cat:hover {
-  transform: scale(1.2);
+  transition: scale(1.2);
 }
 
 button {
@@ -65,5 +60,5 @@ button:hover {
 #message {
   font-size: 1.5em;
   margin-top: 20px;
-  color: #ff6347; /* warna merah cerah untuk menarik perhatian */
+  color: #ff6347;
 }
